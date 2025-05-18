@@ -6,15 +6,7 @@ import CanvasLoader from "../Loader";
 
 const Earth = () => {
   // Defensive: Only render if model and scene are valid
-  let scene = null;
-  try {
-    const gltf = useGLTF("./planet/scene.gltf");
-    if (gltf && gltf.scene) {
-      scene = gltf.scene;
-    }
-  } catch (e) {
-    scene = null;
-  }
+  const { scene } = useGLTF("./planet/scene.gltf");
   if (!scene) {
     // Fallback: simple sphere
     return (
@@ -50,7 +42,6 @@ const EarthCanvas = () => {
           minPolarAngle={Math.PI / 2}
         />
         <Earth />
-
         <Preload all />
       </Suspense>
     </Canvas>
