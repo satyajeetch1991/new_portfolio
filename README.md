@@ -1,6 +1,6 @@
 <!-- Personal About Me Section -->
 <div align="center">
-  <img src="\xxxxxxxxxxxxxxxxxx" width="120" alt="Satyajeet Chavan" style="border-radius:50%;" />
+  <img src="src/assets/portfolio.png" width="120" alt="Satyajeet Chavan" style="border-radius:50%;" />width="120" alt="Satyajeet Chavan" style="border-radius:50%;" />
   <h2>Hi, I'm Satyajeet Chavan 👋</h2>
   <p>
     I'm a passionate software developer specializing in the MERN stack, 3D web, and modern UI/UX.<br>
@@ -14,7 +14,7 @@
   </div>
   <br>
   <a href="mailto:chavansatyajeet2004@gmail.com">Email</a> •
-  <a href="https://linkedin.com/in/satyajeet-chavan-2b2b28251">LinkedIn</a> •
+  <a href="https://www.linkedin.com/in/satyajeet-chavan">LinkedIn</a> •
   <a href="https://github.com/satyajeetchavan">Portfolio</a>
 </div>
 

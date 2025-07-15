@@ -16,11 +16,12 @@ import {
   git,
   cpp,
   machine_learning,
+  machine,
   canva,
   express,
   meta,
-  starbucks,
-  tesla,
+  github,
+  soft,
   shopify,
   carrent,
   jobit,
@@ -30,26 +31,22 @@ import {
   ten,
   cet,
   btech,
+  MERN,
+  virtual_intern,
+  projectmanagement,
+  cdacbootcamp,
+  aws,
+  cv,
+  portfolio,
+  INC_Hack,
+  GSSoc,
+  gcp_milestone,
+  copy_right
 } from "../assets";
-
-export const navLinks = [
-  {
-    id: "about",
-    title: "About",
-  },
-  {
-    id: "work",
-    title: "Work",
-  },
-  {
-    id: "contact",
-    title: "Contact",
-  },
-];
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Developer",
     icon: web,
   },
   // {
@@ -57,7 +54,7 @@ const services = [
   //   icon: mobile,
   // },
   {
-    title: "Backend Developer",
+    title: "AIML Developer",
     icon: backend,
   },
   // {
@@ -67,12 +64,12 @@ const services = [
 ];
 
 const technologies = [
+  // {
+  //   name: "HTML",
+  //   icon: html,
+  // },
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
+    name: "CSS",
     icon: css,
   },
   {
@@ -87,10 +84,10 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "python",
-    icon: python,
-  },
+  // {
+  //   name: "Python",
+  //   icon: python,
+  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -104,89 +101,94 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "nextjs",
+    name: "Next.js",
     icon: next,
-   
-  },{
-    name: "java",
+  },
+  {
+    name: "Java",
     icon: java,
-  },{
-    name: "cpp",
-    icon: cpp,
-  },{
-    name: "machine learning",
+  },
+  // {
+  //   name: "C++",
+  //   icon: cpp,
+  // },
+  {
+    name: "Machine Learning",
     icon: machine_learning,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "canva",
+    name: "Canva",
     icon: canva,
-  },{
-    name: "bootstarp",
+  },
+  {
+    name: "Bootstrap",
     icon: bootstarp,
   },
   {
-    name: "expressjs",
+    name: "Express.js",
     icon: express,
   }
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "☁️ Open Source & Cloud Contributor",
+    company_name: "Google Cloud | GitHub | GSSoC",
+    icon: github,
     iconBg: "#383E56",
-    date: "March 2023 - April 2024",
+    date: "March 2024 - April 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Participated in the Google Cloud Arcade Program, a gamified learning platform by Google Cloud.",
+      "Earned the Advanced Milestone Badge by completing hands-on labs in Compute Engine, Cloud Functions, BigQuery, and Kubernetes Engine.",
+      "Gained practical experience in deploying scalable cloud-based applications and understanding GCP architecture.",
+      "Contributed to multiple open-source repositories by fixing bugs, implementing features, and enhancing documentation.",
+      "Proficient in Git, GitHub workflows (pull requests, branching, issue tracking), and collaborative development.",
+      "Participated in GSSoC, actively engaging with the open-source community while following best coding practices."
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "💻 MERN Stack Developer",
+    company_name: "Projects / Open Source | 2025 – Present",
+    icon: soft,
     iconBg: "#E6DEDD",
-    date: "Jan 2024 - Feb 2025",
+    date: "Sept 2024 - Jul 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built full-stack web apps using MongoDB, Express.js, React.js, and Node.js.",
+      "Created RESTful APIs, integrated frontend with backend.",
+      "Designed responsive UIs using React Hooks and Redux.",
+      "Deployed apps on Vercel, Netlify, and Render, with backend on Cyclic.",
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Web Developer",
+  //   company_name: "Shopify",
+  //   icon: shopify,
+  //   iconBg: "#383E56",
+  //   date: "Jan 2022 - Jan 2023",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
@@ -217,166 +219,199 @@ const testimonials = [
 ];
 
 const projects = [
-  {
-    name: "Car Rent",
+   {
+    name: "CV",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A print-friendly, minimalist CV web page designed for easy sharing and professional presentation. Built with TypeScript for strong typing and maintainability, this project emphasizes clean design and ease of customization.",
     tags: [
       {
-        name: "react",
+        name: "typescript",
         color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/satyajeetchavan",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/satyajeetchavan",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
       },
       {
         name: "css",
         color: "pink-text-gradient",
       },
+      {
+        name: "docker",
+        color: "green-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/satyajeetchavan",
+    image: cv, // Replace with your image import or path
+    source_code_link: "https://github.com/satyajeetch1991/CV",
+  },
+  {
+    name: "Financial Advisor",
+    description:
+      "A full-stack web application providing AI-powered financial advice, tailored for rural India. The platform lets users input their personal and business details to receive personalized investment, savings, and budgeting recommendations, with support for multiple languages and business profiles.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "python (fastapi/flask)",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "google-gemini",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: tripguide, // replace with your actual image import or path
+    source_code_link: "https://github.com/satyajeetch1991/Financial_Advisior",
+  },
+  {
+    name: "Portfolio",
+    description:
+      "A modern, interactive portfolio website to showcase projects, experience, and skills. Built with React.js and Tailwind CSS, it features animated sections, a project gallery, and responsive design. Integrates 3D/animation libraries and supports a wide range of technologies for project showcasing.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "framer-motion",
+        color: "green-text-gradient",
+      },
+      {
+        name: "threejs",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: portfolio, // replace with your actual image import or path
+    source_code_link: "https://github.com/satyajeetch1991/portfolio",
   },
 ];
 
 const achievements = [
   {
-    title: "Google Code-In Finalist",
-    description: "Selected as a finalist in Google Code-In for outstanding open source contributions.",
-    year: 2023,
-    link: "https://codein.withgoogle.com/"
-  }, {
-    title: "Google Code-In Finalist",
-    description: "Selected as a finalist in Google Code-In for outstanding open source contributions.",
-    year: 2023,
-    link: "https://codein.withgoogle.com/"
-  }, {
-    title: "Google Code-In Finalist",
-    description: "Selected as a finalist in Google Code-In for outstanding open source contributions.",
-    year: 2023,
-    link: "https://codein.withgoogle.com/"
+    name: "INC Hackathon Winner",
+    image: INC_Hack,
+    description: "Won 1st place in a national coding hackathon."
   },
-  // Add more achievements here
+  {
+    name: "GSSoC Contributor",
+    image: GSSoc,
+    description: "Contributed to major open source projects in GirlScript Summer of Code."
+  },
+  {
+  name: "Google Cloud Advanced Milestone Winner",
+  image: gcp_milestone, // make sure to import your image file as `gcp_milestone`
+  description: "Achieved the Advanced Milestone in Google Cloud Arcade December 2024 challenge by completing all trivia weeks and technical modules like Advanced Conversation Design and Agent Summarization. Received exclusive swag including a hoodie, backpack, and mug.",
+}
+,
+  {
+    name: "Copyright Holder",
+    image: copy_right,
+    description: "Recognized for original work and copyright achievement."
+  },
 ];
 
 const certifications = [
   {
-    title: "AWS Certified Solutions Architect",
-    description: "Amazon Web Services Solutions Architect – Associate.",
-    year: 2024,
-    link: "https://aws.amazon.com/certification/"
-  }, {
-    title: "AWS Certified Solutions Architect",
-    description: "Amazon Web Services Solutions Architect – Associate.",
-    year: 2024,
-    link: "https://aws.amazon.com/certification/"
-  }, {
-    title: "AWS Certified Solutions Architect",
-    description: "Amazon Web Services Solutions Architect – Associate.",
-    year: 2024,
-    link: "https://aws.amazon.com/certification/"
+    name: "Full Stack Web Development – MERN Stack",
+    image: MERN,
+    description: "Completed MERN stack full stack development course from Unstop, covering MongoDB, Express, React, and Node.js."
   },
-  // Add more certifications here
+ 
+  {
+    name: "Machine Learning Specialization by Stanford University",
+    image: machine,
+    description: "Completed the Machine Learning Specialization on Coursera by Andrew Ng, covering supervised, unsupervised learning, and deep learning fundamentals."
+  },
+  {
+    name: "Career Essentials in Project Management",
+    image: projectmanagement,
+    description: "Completed Microsoft and LinkedIn’s Project Management learning path, covering the fundamentals of managing teams and projects."
+  },
+  {
+    name: "AWS Certified Developer – Associate (DVA-C02) Cert Prep",
+    image: aws,
+    description: "Completed AWS Developer Associate certification prep on LinkedIn Learning, covering cloud application development and core AWS services."
+  },
+  {
+    name: "AI Bootcamp – C-DAC Pune",
+    image: cdacbootcamp,
+    description: "Successfully completed a Bootcamp on Artificial Intelligence conducted by C-DAC Pune in association with Vishwakarma Institute of Information Technology, Pune from September 23 to September 27, 2024. This intensive program, organized under the FutureSkills PRIME initiative by MeitY & NASSCOM, covered essential AI concepts, real-world applications, and skill-building for AI readiness."
+  },
+   {
+    name: "Generative AI Virtual Internship – Google Cloud",
+    image: virtual_intern,
+    description: "Completed a 10-week virtual internship on Generative AI by Google Cloud under AICTE and EduSkills, covering real-world GenAI applications."
+  },
 ];
 
-const conferences = [
-  {
-    title: "React Summit",
-    description: "Attended React Summit 2024, Amsterdam.",
-    year: 2024,
-    link: "https://reactsummit.com/"
-  },
-  {
-    title: "React Summit",
-    description: "Attended React Summit 2024, Amsterdam.",
-    year: 2024,
-    link: "https://reactsummit.com/"
-  },{
-    title: "React Summit",
-    description: "Attended React Summit 2024, Amsterdam.",
-    year: 2024,
-    link: "https://reactsummit.com/"
-  },
-  // Add more conferences here
-];
+const conferences = [];
 
 const education = [
   {
     title: "10th Standard",
-    institution: "Your School Name",
+    institution: "DudhGanga Valley Public School Ispurli - 90.60%",
     icon: ten, // Use ten logo from assets
     iconBg: "#383E56",
     date: "2018 - 2019",
     points: [
       "Passed with distinction.",
-      "Participated in science exhibition.",
+      "Participated and presented a project in the school-level Science Exhibition.",
+      "Built a strong academic foundation in Mathematics and Science.",
     ],
   },
   {
     title: "CET/JEE",
-    institution: "Your Junior College Name",
+    institution: "P. B. Patil Highschool And Junior College Mudal And Science Academy - CET/JEE:97.62/91.01",
     icon: cet, // Use cet logo from assets
     iconBg: "#E6DEDD",
     date: "2020 - 2021",
     points: [
       "Secured first class.",
-      "Member of the cultural committee.",
+      "Qualified CET/JEE entrance exams for engineering admission.",
     ],
   },
   {
     title: "B.Tech",
-    institution: "Your Engineering College Name",
+    institution: "Vishwakarma Institute of Information Technology Pune - CGPA: 8.73 / 10 ",
+    
     icon: btech, // Use btech logo from assets
     iconBg: "#383E56",
     date: "2021 - Present",
+     
     points: [
-      "Pursuing Computer Science and Engineering.",
-      "Active member of coding club.",
+      "Pursuing Computer Science and Engineering with a focus on Full Stack Development and AI/ML.",
+      "Developed multiple academic and personal projects using technologies like React, Node.js, and Python.",
+      "Active member of the coding club; participated in inter-college hackathons.",
     ],
   },
 ];
 
-export { services, technologies, experiences, education, testimonials, projects, achievements, certifications, conferences };
+
+const navLinks = [
+  {
+    id: "about",
+    title: "About",
+  },
+  {
+    id: "projects",
+    title: "Projects",
+  },
+  {
+    id: "cv",
+    title: "CV",
+    url: "https://cv-mu-blush.vercel.app/",
+    external: true
+  },
+  {
+    id: "contact",
+    title: "Contact",
+  },
+];
+
+export { services, technologies, experiences, education, testimonials, projects, achievements, certifications, conferences, navLinks };

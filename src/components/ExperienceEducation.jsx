@@ -72,7 +72,7 @@ const ExperienceEducation = () => {
           </button>
         </div>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          {showEducation ? "Education Journey" : "Work Experience"}
+          {showEducation ? "Education Journey" : "Work "}
         </h2>
       </motion.div>
       <div className='mt-20 flex flex-col'>

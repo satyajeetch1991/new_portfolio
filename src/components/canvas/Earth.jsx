@@ -5,18 +5,11 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Earth = () => {
-  // Defensive: Only render if model and scene are valid
-  const { scene } = useGLTF("./planet/scene.gltf");
-  if (!scene) {
-    // Fallback: simple sphere
-    return (
-      <mesh>
-        <sphereGeometry args={[2.5, 32, 32]} />
-        <meshStandardMaterial color="#8888ff" />
-      </mesh>
-    );
-  }
-  return <primitive object={scene} scale={2.5} position-y={0} rotation-y={0} />;
+  const earth = useGLTF("./planet/scene.gltf");
+
+  return (
+    <primitive object={earth.scene} scale={2.5} position-y={0} rotation-y={0} />
+  );
 };
 
 const EarthCanvas = () => {
@@ -32,7 +25,6 @@ const EarthCanvas = () => {
         far: 200,
         position: [-4, 3, 6],
       }}
-      events={null}
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
@@ -42,6 +34,7 @@ const EarthCanvas = () => {
           minPolarAngle={Math.PI / 2}
         />
         <Earth />
+
         <Preload all />
       </Suspense>
     </Canvas>

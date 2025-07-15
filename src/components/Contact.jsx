@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import { useNavigate } from "react-router-dom";
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
@@ -8,6 +9,7 @@ import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
 const Contact = () => {
+  const navigate = useNavigate();
   const formRef = useRef();
   const [form, setForm] = useState({
     name: "",
@@ -47,13 +49,12 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
-
           setForm({
             name: "",
             email: "",
             message: "",
           });
+          navigate("/thankyou");
         },
         (error) => {
           setLoading(false);

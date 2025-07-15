@@ -53,12 +53,16 @@ const Navbar = () => {
           {navLinks.map((nav) => (
             <li
               key={nav.id}
-              className={`$${
+              className={`$$
                 active === nav.title ? "text-white" : "text-secondary"
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              {nav.external ? (
+                <a href={nav.url} target="_blank" rel="noopener noreferrer">{nav.title}</a>
+              ) : (
+                <a href={`#${nav.id}`}>{nav.title}</a>
+              )}
             </li>
           ))}
           <li>
@@ -89,7 +93,7 @@ const Navbar = () => {
               {navLinks.map((nav) => (
                 <li
                   key={nav.id}
-                  className={`font-poppins font-medium cursor-pointer text-[16px] $${
+                  className={`font-poppins font-medium cursor-pointer text-[16px] $$
                     active === nav.title ? "text-white" : "text-secondary"
                   }`}
                   onClick={() => {
@@ -97,7 +101,11 @@ const Navbar = () => {
                     setActive(nav.title);
                   }}
                 >
-                  <a href={`#${nav.id}`}>{nav.title}</a>
+                  {nav.external ? (
+                    <a href={nav.url} target="_blank" rel="noopener noreferrer">{nav.title}</a>
+                  ) : (
+                    <a href={`#${nav.id}`}>{nav.title}</a>
+                  )}
                 </li>
               ))}
               <li>
