@@ -67,8 +67,8 @@ const Navbar = () => {
           ))}
           <li>
             <a
-              href="/resu.pdf"
-              download="Satyajeet_Resume.pdf"
+              href="https://drive.google.com/file/d/1-1250Yc9SLrCusFQQgdPRL6osxGAoT4J/view?usp=sharing"
+              download="SatyajeetChavanResume.pdf"
               className="text-white bg-indigo-600 hover:bg-indigo-700 px-4 py-2 rounded font-medium transition-colors"
             >
               Download Resume
@@ -110,8 +110,8 @@ const Navbar = () => {
               ))}
               <li>
                 <a
-                  href="/resu.pdf"
-                  download="Satyajeet_Resume.pdf"
+                  href="https://drive.google.com/file/d/1-1250Yc9SLrCusFQQgdPRL6osxGAoT4J/view?usp=sharing"
+                  download="SatyajeetChavanResume.pdf"
                   className="text-white bg-indigo-600 hover:bg-indigo-700 px-4 py-2 rounded font-medium transition-colors"
                 >
                   Download Resume
