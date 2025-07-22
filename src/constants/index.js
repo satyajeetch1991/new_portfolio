@@ -54,7 +54,7 @@ const services = [
   //   icon: mobile,
   // },
   {
-    title: "AIML Developer",
+    title: "Backend Developer",
     icon: backend,
   },
   // {
